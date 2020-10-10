@@ -1,0 +1,1 @@
+Verify Your Account by <a href="{{route('sendEmailDone',["email"=> $user->email,"verifyToken"=>$user->verifyToken])}}"><b>CLICKING ME </b></a>
